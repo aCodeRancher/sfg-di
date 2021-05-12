@@ -6,9 +6,9 @@ import org.springframework.boot.context.properties.ConstructorBinding;
 @ConstructorBinding
 @ConfigurationProperties(prefix="guru")
 public class TestConfiguration {
-    private String username;
-    private  String password;
-    private  String jdbcurl;
+    private final String username;
+    private  final String password;
+    private  final String jdbcurl;
 
 
     public TestConfiguration(String username, String password, String jdbcurl) {
