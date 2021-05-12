@@ -1,0 +1,4 @@
+guru:
+    username: YmlStageUserName
+    password: YmlStagePassword
+    jdbcurl: YmlStageUrl
