@@ -1,0 +1,4 @@
+guru:
+  username: YmlTestUserName
+  password: YmlTestPassword
+  jdbcurl: YmlTestvUrl
